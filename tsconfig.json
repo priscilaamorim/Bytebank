@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "outDir": "./dist/js/",
+        "noEmitOnError": true, //irá gerar os arquivos .js correspondentes apenas se nenhum erro de compilação for detectado no código desses arquivos.
+        "forceConsistentCasingInFileNames": true,
+        "strict": true
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
